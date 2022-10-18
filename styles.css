@@ -20,6 +20,17 @@ nav {
     align-items: center;
 }
 
+button {
+    background-color: #6415FF;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 12px 32px;
+    border-radius: 20px;
+    border: none;
+    transition: all 300ms ease; 
+}
+
 .logo__container {
     display: flex;
     align-items: center;
@@ -41,6 +52,10 @@ ul {
 
 li {
     list-style: none;
+}
+
+.purple {
+    color: #6415FF;
 }
 
 .nav__link {
@@ -68,4 +83,96 @@ li {
 
 .nav__link--primary:hover {
     background-color: #5a1ada;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__row {
+    display: flex;
+    margin: 32px 0;
+}
+
+.header__description {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__img--container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__img {
+    width: 100%;
+    max-width: 32rem;
+    min-width: 0px;
+}
+
+.header__subtitle {
+    font-size: 36px;
+}
+
+.header__para {
+    margin: 32px 0;
+}
+
+.header__input {
+    position: relative;
+}
+
+.header__input--email {
+    font-size: 100%;
+    font-weight: 500;
+    color: black;
+    width: 100%;
+    padding: 20px 192px 20px 32px;
+    border-color: rgb(231, 230, 230);
+    border-radius: 80px;
+}
+
+.header__input--email::placeholder {
+    color: rgb(231, 230, 230);
+}
+
+.header__btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 10rem;
+    margin-right: 0.5rem;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 100%;
+}
+
+.header__customers {
+    margin-top: 5rem;
+}
+
+.header__customers--subtitle {
+    color: rgb(160 174 192);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.header__customers__img {
+    width: 100%;
+    opacity: 0.5;
+    margin-top: 1rem;
+    padding-right: 4rem;
 }
