@@ -254,3 +254,51 @@ FEATURES
     border-radius: 50px;
 }
 
+/* 
+
+QUALITY
+
+*/
+
+.quality__description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 72px;
+}
+
+.quality__btn {
+    max-width: 141px;
+}
+
+.quality__subtitle {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 16px 0px;
+    line-height: 1.25;
+}
+
+.quality__img--container {
+    width: 50%;
+}
+
+.quality__img {
+    width: 100%;
+    border: 1px solid rgb(196, 209, 228);
+    border-radius: 4px;
+    height: auto;
+}
+
+.quality__row {
+    display: flex;
+}
+
+.quality__para {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(124 139 161);
+    margin-bottom: 20px;
+}
