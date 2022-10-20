@@ -239,6 +239,7 @@ FEATURES
     font-weight: 700;
     letter-spacing: 0.025em;
     line-height: 1;
+    margin-top: 8px;
 }
 
 .service__para {
@@ -301,4 +302,74 @@ QUALITY
     text-align: left;
     color: rgb(124 139 161);
     margin-bottom: 20px;
+}
+
+/* 
+
+STEPS
+
+*/
+
+.steps__row {
+    display: flex;
+}
+
+.steps__img--container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    align-items: center;
+}
+
+.steps__img {
+    width: 100%;
+}
+
+.steps__container {
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.steps__subtitle {
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 1rem;
+    font-weight: 900;
+    line-height: 1.25;
+    margin-right: 36px;
+}
+
+.step {
+    display: flex;
+    margin-top: 36px;
+}
+
+.step__number {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(203, 213, 224);
+    margin-right: 18px;
+}
+
+.step__description--title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.step__description--para {
+    margin-top: 0.75rem;
+    max-width: 20rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 2;
+    color: rgb(113 128 150);
 }
