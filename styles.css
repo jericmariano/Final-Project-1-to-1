@@ -526,7 +526,7 @@ FOOTER
 footer {
     background-color: #6415FF;
     color: white;
-    padding-bottom: 48px;
+    padding: 48px 0;
 }
 
 .links {
