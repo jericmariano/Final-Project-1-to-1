@@ -516,3 +516,79 @@ PRICING
 .plan:last-child .plan__highlight {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
+
+/* 
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #6415FF;
+    color: white;
+    padding-bottom: 48px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+}
+
+.link__subtitle {
+    font-weight: 700;
+    font-size: inherit;
+    margin: 24px 0;
+}
+
+.link__item {
+    margin-bottom: 16px;
+}
+
+.footer__line {
+    border: 1px solid #718096;
+    margin: 48px 0;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo--container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 2rem;
+    padding-right: 12px;
+}
+
+.footer__logo--text {
+    font-size: 20px;
+}
+
+.footer__social--links {
+    display: flex;
+    color: black;
+}
+
+i {
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 100%;
+    border: none;
+    margin-right: 8px;
+}   
+
+
+
