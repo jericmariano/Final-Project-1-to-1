@@ -35,6 +35,11 @@ button {
     transition: all 300ms ease; 
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: #5a1ada;
+}
+
 .logo__container {
     display: flex;
     align-items: center;
@@ -139,7 +144,7 @@ header {
     color: black;
     width: 100%;
     padding: 20px 192px 20px 32px;
-    border-color: rgb(231, 230, 230);
+    border: 2px solid #e5e7eb;
     border-radius: 80px;
 }
 
@@ -492,6 +497,16 @@ PRICING
     align-items: center;
     margin: 36px 0;
 }
+
+.button__business {
+    background-color: rgb(247 250 252); 
+    color: rgb(100 21 255);
+}
+
+.button__business:hover {
+    background-color: rgba(226, 232, 240, 0.808);
+}
+
 
 .plan:first-child .plan__button {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
