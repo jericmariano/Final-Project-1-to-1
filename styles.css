@@ -55,6 +55,32 @@ button:hover {
     padding-left: 12px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5a1ada;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer__social--links a {
+    color: black;
+}
+
+.footer__social--links a:hover {
+    color: black;
+}
+
 ul {
     display: flex;
 }
@@ -91,7 +117,9 @@ li {
 }
 
 .nav__link--primary:hover {
+    color: white;
     background-color: #5a1ada;
+    text-decoration: none;
 }
 
 header {
